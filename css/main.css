@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+body {
+    font-family: 'Kumar One';
+    font-weight: 400;
+    margin: auto;
+    height: 100%;
+}
+
+header, footer{
+    background-color: #FFD6D6;
+}
+
+header h1{
+    font-size: 96px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 98px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu-item{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.card{
+    width: 400px;
+    background-color: #FFEFEF;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border: 5px solid #FFD6D6;
+}
+
+.main-card{
+    display: block;
+    color: black;
+    font-size: 26px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+
+.card img{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid #FFD6D6;
+}
+
+.footer-menu-item{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;   
+    text-align: center; 
+    margin: 0;
+}
+    
+.footer-menu-text{
+    color: black;
+    text-decoration: none;
+    font-size: 30px; 
+    text-align: center; 
+    margin: 0;
+} 
+
+.footer-menu{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+    
